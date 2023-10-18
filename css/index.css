@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body{
+    background-color: #4A3D4C;
+    height: 100vh;
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+    color: #fbf9f9;
+
+    /* background-image: url(); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+h1,
+h2,
+h3,
+h4{
+    color: #BA68C8;
+}
+
+
+/* Cabeçalho */
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header nav ul li{
+    list-style-type: none;
+    padding: 1.5em;
+}
+
+header a{
+    color: #fbf9f9;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #CA2EE6;
+}
+.container{
+    padding: 1em;
+    /* border: solid 1px pink; */
+}
+
+.btnContatos a{
+    background-color: #fbf9f9;
+    color: #BA68C8;
+    padding: .5em 1em;
+    border-radius: 6px;
+}
+.btnContatos a:hover{
+    background-color: #BA68C8;
+    color: #fbf9f9;
+}
+/* Conteúdo */
+.principal{
+    padding: 2em;
+}
+
+h1{
+    text-align: center;
+}
+.sobre{
+    display: flex;
+    flex-direction: row;
+}
+
+.emDesenvolvimento{
+    width: 300px;
+    height: 300px;
+}
