@@ -12,11 +12,9 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
 
@@ -46,25 +44,42 @@
 
     <main>
         <div class="principal">
-            <h1>Maytê Araújo</h1>
-            <div id="sobre" class="sobre">
-                <img class="emDesenvolvimento" src="../assets/desenvolvimento.png" alt="Mulher sentada com notebook">
-                <div class="textoSobre">
-                    <p>Olá! Sou Maytê estudante de Análise e Desenvolvimento de Sistemas pela Fatec e estou em busca de
-                        uma oportunidade de estágio. Minha relação com a área de tecnologia começou no curso técnico de
-                        informática no CEFET-SP, onde tive oportunidade de adquirir conhecimentos sobre programação,
-                        redes de computadores, sistemas operacionais e banco de dados.</p><br>
-                    <p>Mais tarde ingressei na graduação
-                        de Tecnologia em Automação Industrial pelo IFSP onde aprofundei meus conhecimentos em tecnologia
-                        e tive a oportunidade de realizar uma Iniciação Científica.</p><br>
-                    <p>Atualmente me encontro em transição de carreira para a área de tecnologia e meu principal
-                        objetivo é ser
-                        desenvolvedora frontend e estou constantemente aprimorando minhas habilidades por meio de
-                        cursos, bootcamps, mentorias e programas de desenvolvimento profissional que contribuam com a
-                        minha evolução profissional.
-                    </p>
+            <section class="hero">
+                <div class="texto-hero">
+                    <h1>Maytê <span>Araújo</span>.</h1>
+                    <p>Desenvolvedora de Sistemas</p>
                 </div>
-            </div><!--Sobre-->
+
+                <div class="btnContatos">
+                    <a href="#">Curriculo</a>
+                </div>
+            </section>
+
+            <section id="sobre" class="sobre">
+                <h2 class="titulo">Sobre</h2>
+                <div class="formContinuada">
+                    <img class="emDesenvolvimento" src="./assets/desenvolvimento.png" alt="Mulher sentada com notebook">
+                    <div >
+                        <p>Olá! Sou Maytê estudante de Análise e Desenvolvimento de Sistemas pela Fatec e estou em busca
+                            de
+                            uma oportunidade de estágio. Minha relação com a área de tecnologia começou no curso técnico
+                            de
+                            informática no CEFET-SP, onde tive oportunidade de adquirir conhecimentos sobre programação,
+                            redes de computadores, sistemas operacionais e banco de dados.</p><br>
+                        <p>Mais tarde ingressei na graduação
+                            de Tecnologia em Automação Industrial pelo IFSP onde aprofundei meus conhecimentos em
+                            tecnologia
+                            e tive a oportunidade de realizar uma Iniciação Científica.</p><br>
+                        <p>Atualmente me encontro em transição de carreira para a área de tecnologia e meu principal
+                            objetivo é ser
+                            desenvolvedora frontend e estou constantemente aprimorando minhas habilidades por meio de
+                            cursos, bootcamps, mentorias e programas de desenvolvimento profissional que contribuam com
+                            a
+                            minha evolução profissional.
+                        </p>
+                    </div>
+                </div>
+            </section><!--Sobre-->
 
             <section id="formacao" class="container formacao">
                 <h2 class="titulo">Formação</h2>
@@ -75,30 +90,39 @@
                     <li>Curso Técnico em Informática com ênfase em Desenvolvimento de Sistemas / Instituto Federal /Jul
                         2003</li>
                 </ul>
-<br>
-                <h3>Formação contínuada</h3>
-                <ul>
-                    <li>Desenvolvimento FrontEnd e Cloud - VaiNaWeb – cursando até Jan/2024</li>
-                    <li>Programação Python do Zero ao Avançado + 32 Projetos – Udemy – Set/2023</li>
-                    <li>Programação Orientada a Objetos com Python – Udemy – Set/2023</li>
-                    <li>Desenvolvimento Web - ElasNaTech | JA Brasil – Out/2023</li>
-                    <li>Networking Essentials & Mentorias Individuais - Level Up | Logicalis – Jun/2023</li>
-                    <li>Fundamentos de Front End Development – Mover by Descomplica / Mai 2023</li>
-                    <li>HTML, CSS, Bootstrap – Mover by Descomplica / Fev 2023</li>
-                    <li>Design Thinking, UX e Metodologias Ágeis – Mover by Descomplica / Fev 2023</li>
-                    <li>Bootcamp Québec Java Digital – Digital Innovation One Inc / Nov 2022</li>
-                    <li>Conceitos e Melhores Práticas Bancos de Dados PostgreSQL - Digital Innovation One Inc / Nov 2022
-                    </li>
-                    <li>Metodologias Ágeis e Ciclo de Desenvolvimento de Software - Digital Innovation One Inc / Nov
-                        2022</li>
-                    <li>Bootcamp Santander Code Girls Trilha Java / Digital Innovation One Inc / Ago 2022</li>
-                    <li>Praticando Orientação a Objetos com Java / Digital Innovation One Inc / Jul 2022</li>
-                    <li>Projetos Ágeis com Scrum / Digital Innovation One Inc / Jun 2022</li>
-                    <li>Microsoft Power BI, versao 2.0 – Data Science Academy / Jun 2021</li>
-                </ul>
+                <br>
+
+                <div>
+                    <h3>Formação contínuada</h3>
+                    <div class="formContinuada">
+                        <ul>
+                            <li>Desenvolvimento FrontEnd e Cloud - VaiNaWeb – cursando até Jan/2024</li>
+                            <li>Programação Python do Zero ao Avançado + 32 Projetos – Udemy – Set/2023</li>
+                            <li>Programação Orientada a Objetos com Python – Udemy – Set/2023</li>
+                            <li>Desenvolvimento Web - ElasNaTech | JA Brasil – Out/2023</li>
+                            <li>Networking Essentials & Mentorias Individuais - Level Up | Logicalis – Jun/2023</li>
+                            <li>Fundamentos de Front End Development – Mover by Descomplica / Mai 2023</li>
+                            <li>HTML, CSS, Bootstrap – Mover by Descomplica / Fev 2023</li>
+                            <li>Design Thinking, UX e Metodologias Ágeis – Mover by Descomplica / Fev 2023</li>
+                            <li>Bootcamp Québec Java Digital – Digital Innovation One Inc / Nov 2022</li>
+                            <li>Conceitos e Melhores Práticas Bancos de Dados PostgreSQL - Digital Innovation One Inc /
+                                Nov
+                                2022
+                            </li>
+                            <li>Metodologias Ágeis e Ciclo de Desenvolvimento de Software - Digital Innovation One Inc /
+                                Nov
+                                2022</li>
+                            <li>Bootcamp Santander Code Girls Trilha Java / Digital Innovation One Inc / Ago 2022</li>
+                            <li>Praticando Orientação a Objetos com Java / Digital Innovation One Inc / Jul 2022</li>
+                            <li>Projetos Ágeis com Scrum / Digital Innovation One Inc / Jun 2022</li>
+                            <li>Microsoft Power BI, versao 2.0 – Data Science Academy / Jun 2021</li>
+                        </ul>
+                        <img class="emDesenvolvimento" src="./assets/books.png" alt="Mulher Estudando" />
+                    </div>
+                </div>
             </section><!--formacao-->
 
-            <div id="projetos" class="projetos">
+            <section id="projetos" class="projetos">
                 <h2>Projetos</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis labore totam rerum exercitationem
                     similique illum incidunt error impedit sunt adipisci at modi, laboriosam numquam? Earum odio
@@ -116,11 +140,11 @@
                     consequuntur aut recusandae consectetur eos unde voluptatem a provident libero, neque, velit id ex
                     sed voluptatibus, quasi officia! Iure ipsum hic sed delectus dolor nostrum, accusamus cumque fugiat
                     iste numquam commodi quod.</p>
-            </div><!--Projetos-->
+            </section><!--Projetos-->
 
-            <div id="tecnologias" class="tecnologias">
+            <section id="tecnologias" class="tecnologias">
                 <h2>Tecnologias</h2>
-                <p>                Conhecimento das Tecnologias: Java, JavaScript, HTML, CSS, Banco de Dados, SQL, Modelagem, UML,
+                <p> Conhecimento das Tecnologias: Java, JavaScript, HTML, CSS, Banco de Dados, SQL, Modelagem, UML,
                     Laravel, Boostrap, Flutter, Versionamento com GIT, C++ Builder, Delphi / Fatec e Instituto Federal /
                     2023
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo necessitatibus, aut culpa minima
@@ -139,9 +163,9 @@
                     Ipsa earum, tempore nulla dignissimos, dolore fugiat fugit officia magnam quo cupiditate aspernatur
                     recusandae officiis totam velit saepe iste amet architecto ab itaque quia eum voluptatibus. A
                     excepturi corrupti rerum et esse laudantium quibusdam vitae eum.</p>
-            </div><!--Especialidades-->
+            </section><!--Especialidades-->
 
-            <div id="contatos" class="contatos">
+            <section id="contatos" class="contatos">
                 <h2>Contatos</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat aspernatur mollitia blanditiis a.
                     Officiis, repudiandae. Minima neque saepe ipsam id commodi laudantium nobis, ea esse natus
@@ -171,21 +195,15 @@
                     quo dolor cum rerum quam ut, pariatur dolorum nam doloribus repellendus ea laudantium molestiae
                     molestias, quisquam assumenda beatae. Consequuntur impedit numquam deleniti, eligendi beatae commodi
                     sed nam dignissimos dolor modi dicta tempore nesciunt. Reiciendis odio eos qui culpa earum
-                    accusantium, enim quaerat libero architecto dolor dicta voluptate, nesciunt, deserunt ipsum deleniti
-                    laborum voluptatibus! Consectetur consequuntur sint ex quas tenetur. Sed eius nihil qui nesciunt
-                    ipsam, commodi, recusandae aliquid vel minus quod fugiat eveniet dolorum quas perspiciatis dolor
-                    natus similique a modi! Facere voluptas a dolore ullam temporibus laboriosam repudiandae, ea
-                    repellat quasi. Nostrum doloribus cumque ipsum illo illum, exercitationem ut, expedita perferendis,
-                    adipisci quia fuga aliquam laudantium cum. Earum voluptas quos voluptatum iste, aut dolorem optio
-                    officiis quae ipsa ipsam labore quod tenetur nisi fugit maiores soluta natus quas vel repudiandae
-                    dolorum nam commodi minus! Tempore error maxime quasi quia dicta, sapiente distinctio laboriosam
-                    voluptatum voluptate libero labore illum nesciunt blanditiis, dolorum voluptatem culpa ullam nobis
-                    amet soluta non. Magnam veritatis, minima repudiandae quod, quo suscipit alias reiciendis tenetur,
-                    laudantium omnis voluptas illum harum quisquam voluptatum dolores non eveniet incidunt? Nemo.p>
-            </div>
-
+                    accusantium, enim quaerat libero architecto dolor dicta voluptate, nesciunt, deserunt ipsum deleniti.<p>
+            </section>
         </div>
     </main>
+    <footer>
+        <section>
+            <p>Maytê Araújo | 2023</p>
+        </section>
+    </footer>
 </body>
 
 </html>

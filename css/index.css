@@ -2,11 +2,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
+/* cores */
+.teste{
+background-color: #332D31;
+background-color: #614658;
+background-color: #944D7C;
+background-color: #C7409A;
+background-color: #F6F4FE;
+background-color: #4A3D4C;
+}
 /* Estilo geral */
 body{
-    background-color: #4A3D4C;
+    background-color: #332D31;
     height: 100vh;
     font-family: 'Poppins', 'Montserrat', sans-serif;
     color: #fbf9f9;
@@ -22,6 +32,35 @@ h2,
 h3,
 h4{
     color: #BA68C8;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    color: yellow;
+    word-spacing: .2em;
+    letter-spacing: .1em;
+    font-weight: 700;
+    /* padding: 1em; */
+    /* margin-bottom: 1em; */
+    
+}
+
+h1 span{
+    color: #BA68C8;
+    text-decoration: underline;
+}
+
+.hero, .sobre, footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero a{
+    margin-top: 2em;
+
 }
 
 
@@ -32,6 +71,10 @@ h4{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header{
+    border-bottom: 2px solid #555;;
 }
 
 .header ul{
@@ -45,17 +88,23 @@ h4{
     padding: 1.5em;
 }
 
-header a{
+header a, 
+.hero a {
     color: #fbf9f9;
     text-decoration: none;
 }
 
 header a:hover{
     color: #CA2EE6;
+    border-bottom: 2px solid #555;
 }
 .container{
     padding: 1em;
     /* border: solid 1px pink; */
+}
+
+.texto-hero{
+    margin-bottom: 1em;
 }
 
 .btnContatos a{
@@ -69,19 +118,42 @@ header a:hover{
     color: #fbf9f9;
 }
 /* Conteúdo */
-.principal{
-    padding: 2em;
+
+.principal section{
+    width: 100vw;
+    height: 100vh;
+    padding: 3em;
 }
 
-h1{
-    text-align: center;
-}
-.sobre{
-    display: flex;
-    flex-direction: row;
-}
 
 .emDesenvolvimento{
     width: 300px;
     height: 300px;
+}
+
+.formacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.formacao div{
+    width: 90vw;
+}
+
+.formContinuada{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formContinuada img{
+    width: 300px;
+    height: 300px;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    padding: 2em;
+    border-top: 2px solid #555;
 }
